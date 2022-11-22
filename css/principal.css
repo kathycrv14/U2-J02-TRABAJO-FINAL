@@ -1,0 +1,105 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+
+}
+
+/* #eb2c52 / fe4d4d  color: #E94057 */
+
+header{
+    background-color: #f5c9c9;
+}
+
+.name{
+    letter-spacing: .3rem;
+    font-size:1.5rem;
+    font-weight: bolder;
+    color: #E94057;
+}
+
+
+a:hover {
+    color: #4874aa;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    font-weight: bolder;
+    color: #f15c70;
+}
+
+.section1{
+    background: #ff6e7f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.section3{
+    background-color: #f6f4f4;
+}
+
+
+.section4{
+    justify-content: center;
+}
+
+.p1{
+    letter-spacing: .3rem;
+    font-size: 18px;
+    
+}
+
+.p2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.p4, .p5, .p6{
+    font-style: oblique;
+    font-size: 18px;
+}
+
+.p7{
+    font-size: 1.5rem;
+    color: #E94057;
+    font-weight: bolder;
+    text-decoration: underline #88a7fe 5px;
+}
+
+.imagen1{
+    width: 200px;
+
+}
+
+.imagengf{
+    width: 100px;
+}
+
+.plomo{
+    background-color: #f7f7f7;
+}
+
+.pf{
+    color: #af5ab3;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.foot{
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+
+/*
+ class="section3 border border-2 border-dark align-content-center justify-content-center my-5 px-5
+
+
+*/
