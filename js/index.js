@@ -1,10 +1,9 @@
 
 const visitante = document.getElementById("namevisita");
 
-let nom = prompt("Ingrese su nombre");
+let nom = prompt("Ingresa tu nombre");
 
 visitante.innerText = nom;
-
 
 
 
