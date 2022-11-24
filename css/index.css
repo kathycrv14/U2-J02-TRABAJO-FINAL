@@ -1,0 +1,201 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: #be5869;
+    
+}
+
+
+
+/* FONDO COLOR DE CADA SECTION GENERAL*/
+
+.bgpink2{
+    background-color: #ffffff;
+}
+
+.bgpink3{
+    background-color: #f3f3f3;
+}
+
+
+/* IMAGENES */
+
+.pic1{
+    z-index:1; width: 100%; height: 100%;
+}
+
+.imagengf{
+    z-index:1; width: 30%; height: 30%;
+}
+
+
+/* RECUADRO COLOR INTERIOR */
+
+.square1{
+    background-color: #ffe0e0;
+    border-radius: 15px;
+}
+
+.square2{
+    background-color: #eeddf3;
+    border-radius: 15px;
+}
+
+/* TEXTO DE CADA SECTION*/
+
+.tema{
+    font-size: 1.5rem;
+    color: #E94057;
+    font-weight: bolder;
+    text-decoration: underline #88a7fe 5px;
+}
+
+
+/* RECUADRO TITULO INTERIOR */
+
+.pf{
+    color: #af5ab3;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+/* CAMBIO DE COLOR EN EL NAVBAR */
+
+a:hover {
+    color: #403A3E;
+    cursor: pointer;
+}
+
+a{
+    font-weight: bolder;
+    color: #ffdde1;
+}
+
+/* FORMULARIO */
+
+.formulario{
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 20px;
+    max-width: 100vw;
+}
+
+.form-input{
+    flex-wrap: wrap;
+    width: 100%;
+    border-color: #88a7fe;
+    padding: 5px;
+}
+
+label{
+    padding: 5px;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 10rem;
+}
+
+#opciones{
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #292E49;
+}
+
+.footertitulo{
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.af{
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.imagenrs{
+    height: 50px;
+}
+
+.af:hover {
+    color: #ffe100;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.af{
+    color: #ffffff;
+}
+
+/* VISUALIZACION DEL FORMULARIO */
+
+@media (min-width:668px){
+    .formulario1{
+        width: 500px;
+        padding: 2rem;
+    }
+    .form-input{
+        width: 100% ;
+    }
+}
+
+
+.squarecolor:hover{
+background:#f7abb8;
+}
+
+.squarecolor:hover
+{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+
+.form-button{
+    background-color: #d8d8d8;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.form-button:hover{
+    background-color: #ffe0e0;
+    border: none;
+    width: 100px;
+}
+
+#namevisita{
+    font-size: 30px;
+    color: #403A3E;
+}
+
+.btnGracias{
+    background-color: #D66D75;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.msjg, .btnGracias{
+border-radius: 10px;
+
+}
+
+.btnSm{
+    background-color: #D66D75;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
